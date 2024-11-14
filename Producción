@@ -1,0 +1,51 @@
+graph LR
+    A[Diseño Sostenible] --> B{Selección de Materiales}
+    B --> C{Producción Responsable}
+    C --> D{Empaque Sostenible}
+    D --> E{Distribución Eficiente}
+    E --> F{Uso del Producto}
+    F --> G{Reutilización/Reciclaje}
+    G --> H{Fin de Vida}
+    H --> I{Desecho Responsable}
+
+    subgraph Selección de Materiales
+        B1{Materiales Reciclados}
+        B2{Materiales Biodegradables}
+        B3{Materiales de Origen Sostenible}
+    end
+
+    subgraph Producción Responsable
+        C1{Eficiencia Energética}
+        C2{Gestión de Residuos}
+        C3{Condiciones Laborales Justas}
+    end
+
+    subgraph Empaque Sostenible
+        D1{Materiales Reciclados}
+        D2{Materiales Biodegradables}
+        D3{Embalaje Minimalista}
+    end
+
+    subgraph Distribución Eficiente
+        E1{Transporte Público}
+        E2{Vehículos de Baja Emisión}
+        E3{Optimización de Rutas}
+    end
+
+    subgraph Uso del Producto
+        F1{Duración del producto}
+        F2{Reparabilidad}
+        F3{Uso Responsable}
+    end
+
+    subgraph Reutilización/Reciclaje
+        G1{Reutilización del producto}
+        G2{Reciclaje de Materiales}
+        G3{Compostaje}
+    end
+
+    subgraph Desecho Responsable
+        I1{Recolección Selectiva}
+        I2{Tratamiento de Residuos}
+        I3{Reciclaje}
+    end
